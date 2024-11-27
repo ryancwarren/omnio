@@ -1,6 +1,9 @@
-# Omnio
+# Omnio Dynamics Incorporated (ODI)
+
+This is a repo for me to work on IaC and service ideas.
 
 ## Goals
+### 2024-Q4+
 
 1. Kubernetes
 2. AWS: Solidify Knowledge, Intermediate EKS
@@ -14,8 +17,20 @@
 10. CM: (Ansible?)
 11. CLI Glue: (Makefile?)
 
+### 2025-Q2+
 
-## WORK
+1. ML Python Basics: Nuts & Bolts
+2. Projects & Services: Brainstorm
+
+### 2025-QX+
+
+1. ML Generative Development, Cost, Requirements
+2. Projects & Services:  1-3 Services Hosted
+
+## Log
+### November 27, 2024
+
+Worked on,
 
 1. SCM Repo Setup
 2. VPC & Consulting NodeJS R&D App Dev
@@ -28,7 +43,17 @@
 9. Terraform Research: Functions
 10. Typescript Research: Language
 
-## TODO
+Thoughts,
+
+1. I don't miss `terragrunt` at all.  CloudFormation is fugly.
+2. `tf` files are faster to work with than `CDKTF`.
+3. VPC vs network vs cluster ...
+4. "Ritual, ceremony code" is useful for **learning**.  Clean it later, but enjoy the exploration.
+5. EKS service of type `LoadBalancer`; creates an LB.  Didn't realize that.  Likely a basic detail more experienced `K8s` folk know.
+6. SGs are stateful.  If you don't explicitly add SG egress for destination targets, if an ingress allowed the traffic, then egress is automatic. **CONFIRM???**
+7. Javascript async is unpleasant to develop in.  Nodejs apps are incredibly useful however; faster to develop than python.
+
+Next?
 
 1. AWS VPNs. 
 2. GoDaddy DNS...
@@ -39,14 +64,3 @@
 7. Add `vpc` TF design / layout README.
 8. Add `iac` "state" README.
 9. Add `cluster` README.
-
-## Log
-### November 27, 2024
-
-1. I don't miss `terragrunt` at all.  CloudFormation is fugly.
-2. `tf` files are faster to work with than `CDKTF`.
-3. VPC vs network vs cluster ...
-4. "Ritual, ceremony code" is useful for **learning**.  Clean it later, but enjoy the exploration.
-5. EKS service of type `LoadBalancer`; creates an LB.  Didn't realize that.  Likely a basic detail more experienced `K8s` folk know.
-6. SGs are stateful.  If you don't explicitly add SG egress for destination targets, if an ingress allowed the traffic, then egress is automatic. **CONFIRM???**
-7. Javascript async is unpleasant to develop in.  Nodejs apps are incredibly useful however; faster to develop than python.
