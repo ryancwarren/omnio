@@ -72,9 +72,10 @@ Next?
 
 ## Projects & Services
 
-1. ODI Corporate Services Support: Jira, Ipify, Botkit **In Progress**4
-2. ODI Product R&D: GovTrack, AucBid, Botkit (Core, Cognition)
+1. ODI Corporate Services Support: PM, CICD Support Services
+2. ODI Product R&D: GovTrack, AucBid, Botkit (Core, Cognition), GovInfra & Frameworks Research
 3. ODI Employee Training: Enterprise Services Market Rsearch
 4. ODI Business Development: Government Tendering System Feedback
+5. ODI Training Guides: DevOps, SRE, ...
 
 
