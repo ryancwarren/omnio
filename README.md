@@ -1,5 +1,20 @@
 # Omnio
 
+## Goals
+
+1. Kubernetes
+2. AWS: Solidify Knowledge, Intermediate EKS
+3. Typescript (My Preferred DevOps Language)
+4. ExpressJS (My API Development)
+5. Prometheus & Grafana: Monitoring Stack, Non-Commerical Choice
+6. DNS
+7. Scaling & DR
+8. Terraform: IaC
+9. CICD: Pick CICD System (GitOps?)
+10. CM: (Ansible?)
+11. CLI Glue: (Makefile?)
+
+
 ## WORK
 
 1. SCM Repo Setup
@@ -13,7 +28,6 @@
 9. Terraform Research: Functions
 10. Typescript Research: Language
 
-
 ## TODO
 
 1. AWS VPNs. 
@@ -22,7 +36,9 @@
 4. Media FS Typescript Model
 5. Access Controls Exploration
 6. EKS Cluster Terraform Module Development
-
+7. Add `vpc` TF design / layout README.
+8. Add `iac` "state" README.
+9. Add `cluster` README.
 
 ## Log
 ### November 27, 2024
